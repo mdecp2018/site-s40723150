@@ -338,9 +338,11 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181012134409.2"># 編輯投影片
+<t tx="leo.20181012134409.2">## 編輯投影片
 
-&lt;img src="/images/mdecp1aexplorer_2018-10-12_15-39-22.png" alt="000" width="1125" height="772"&gt;
+![](../images/1012-1.png)
+
+&lt;img src="../images/1012-1.png" width="95%"/&gt;
 </t>
 </tnodes>
 </leo_file>
