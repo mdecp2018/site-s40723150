@@ -14,6 +14,10 @@
 <v t="leo.20180827201556.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="leo.20180827201621.1" a="E"><vh>編輯 reveal</vh>
+<v t="leo.20181012195826.1" a="E"><vh>編輯投影片步驟</vh>
+<v t="leo.20181012195826.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20181012195826.3"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20180827201621.2" a="E"><vh>@path ./../reveal</vh>
 <v t="leo.20180827201621.3" a="E"><vh>@clean index.html</vh>
 <v t="leo.20180827201621.4" a="E"><vh>html</vh>
@@ -28,9 +32,6 @@
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
-</v>
 <v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
@@ -39,7 +40,15 @@
 </v>
 </v>
 <v t="leo.20181012134409.1" a="E"><vh>編輯投影片</vh>
-<v t="leo.20181012134409.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20181012194127.1" a="E"><vh>編輯投影片步驟</vh>
+<v t="leo.20181012194127.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20180827201621.14" a="E"><vh>編輯投影片步驟</vh>
+<v t="leo.20181012193652.3"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20181012195836.1" a="E"><vh>編輯投影片步驟</vh>
+<v t="leo.20181012195836.3"><vh>投影片快捷鍵</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -165,21 +174,12 @@ Created by [KMOLab](http://lab.kmol.info/)
 </t>
 <t tx="leo.20180827201621.14">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
-
 						
-</t>
-<t tx="leo.20180827201621.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
 </t>
 <t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -329,20 +329,61 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181012134409.1">&lt;section data-markdown&gt;
+<t tx="leo.20181012134409.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181012193652.3">## 編輯投影片
+&lt;img src="../images/1012-2.png" width="600px"/&gt;
+*  找到reveal.leo所在的資料夾，並開啟reveal.leo
+
+</t>
+<t tx="leo.20181012194127.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181012134409.2">## 編輯投影片
+<t tx="leo.20181012194127.2">## 編輯投影片
+* 利用Leo開啟 reveal.leo</t>
+<t tx="leo.20181012195826.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-![](../images/1012-1.png)
 
-&lt;img src="../images/1012-1.png" width="95%"/&gt;
+
+						
 </t>
+<t tx="leo.20181012195826.2">## 編輯投影片
+&lt;img src="../images/1012-2.png" width="400px"/&gt;
+
+ * 找到reveal.leo所在的資料夾，並開啟reveal.leo</t>
+<t tx="leo.20181012195826.3">## 編輯投影片
+&lt;img src="../images/1012-3.png" width="400px"/&gt;
+
+ * 找到reveal.leo所在的資料夾，並開啟reveal.leo</t>
+<t tx="leo.20181012195836.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181012195836.3">## 編輯投影片
+&lt;img src="../images/1012-3.png" width="400px"/&gt;
+ * 在Leo的視窗中開始編輯投影片(reveal)</t>
 </tnodes>
 </leo_file>
