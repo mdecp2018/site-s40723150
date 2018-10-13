@@ -36,7 +36,7 @@
 </v>
 </v>
 <v t="leo.20181012134409.1" a="E"><vh>編輯投影片</vh>
-<v t="leo.20181012194127.1"><vh>Week1</vh>
+<v t="leo.20181012194127.1" a="E"><vh>Week1</vh>
 <v t="leo.20181012194127.2"><vh>編輯投影片步驟</vh></v>
 </v>
 <v t="leo.20180827201621.14" a="E"><vh>步驟1</vh>
@@ -352,7 +352,7 @@ make.start()
 <t tx="leo.20181012194127.2">## Week1
 ### 編輯投影片
 * 開啟 reveal.leo
-* 利用Leo開始編輯 reveal.leo
+* 利用Leo Editor開始編輯 reveal.leo
 * 新增投影片
 * 編輯投影片內容
 </t>
@@ -369,7 +369,7 @@ make.start()
 </t>
 <t tx="leo.20181012195836.3">## 編輯投影片
 &lt;img src="../images/1012-3.png" width="400px"/&gt;
- * 在Leo的視窗中開始編輯投影片(reveal)
+ * 在Leo Editor的視窗中開始編輯投影片(reveal)
 
 </t>
 <t tx="leo.20181013144852.1">&lt;section data-markdown&gt;
