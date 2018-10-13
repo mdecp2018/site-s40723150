@@ -14,10 +14,6 @@
 <v t="leo.20180827201556.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="leo.20180827201621.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20181012195826.1" a="E"><vh>編輯投影片步驟</vh>
-<v t="leo.20181012195826.2"><vh>投影片快捷鍵</vh></v>
-<v t="leo.20181012195826.3"><vh>投影片快捷鍵</vh></v>
-</v>
 <v t="leo.20180827201621.2" a="E"><vh>@path ./../reveal</vh>
 <v t="leo.20180827201621.3" a="E"><vh>@clean index.html</vh>
 <v t="leo.20180827201621.4" a="E"><vh>html</vh>
@@ -40,14 +36,17 @@
 </v>
 </v>
 <v t="leo.20181012134409.1" a="E"><vh>編輯投影片</vh>
-<v t="leo.20181012194127.1" a="E"><vh>編輯投影片步驟</vh>
-<v t="leo.20181012194127.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20181012194127.1"><vh>Week1</vh>
+<v t="leo.20181012194127.2"><vh>編輯投影片步驟</vh></v>
 </v>
-<v t="leo.20180827201621.14" a="E"><vh>編輯投影片步驟</vh>
-<v t="leo.20181012193652.3"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20180827201621.14" a="E"><vh>步驟1</vh>
+<v t="leo.20181012193652.3"><vh>開啟檔案</vh></v>
 </v>
-<v t="leo.20181012195836.1" a="E"><vh>編輯投影片步驟</vh>
-<v t="leo.20181012195836.3"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20181012195836.1" a="E"><vh>步驟2</vh>
+<v t="leo.20181012195836.3"><vh>開始編輯</vh></v>
+</v>
+<v t="leo.20181013144852.1" a="E"><vh>步驟3</vh>
+<v t="leo.20181013144852.2"><vh>投影片快捷鍵</vh></v>
 </v>
 </v>
 </v>
@@ -334,7 +333,7 @@ make.start()
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20181012193652.3">## 編輯投影片
+<t tx="leo.20181012193652.3">## 開啟投影片檔案
 &lt;img src="../images/1012-2.png" width="600px"/&gt;
 *  找到reveal.leo所在的資料夾，並開啟reveal.leo
 
@@ -350,27 +349,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181012194127.2">## 編輯投影片
-* 利用Leo開啟 reveal.leo</t>
-<t tx="leo.20181012195826.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
+<t tx="leo.20181012194127.2">## Week1
+### 編輯投影片
+* 開啟 reveal.leo
+* 利用Leo開始編輯 reveal.leo
+* 新增投影片
+* 編輯投影片內容
 </t>
-<t tx="leo.20181012195826.2">## 編輯投影片
-&lt;img src="../images/1012-2.png" width="400px"/&gt;
-
- * 找到reveal.leo所在的資料夾，並開啟reveal.leo</t>
-<t tx="leo.20181012195826.3">## 編輯投影片
-&lt;img src="../images/1012-3.png" width="400px"/&gt;
-
- * 找到reveal.leo所在的資料夾，並開啟reveal.leo</t>
 <t tx="leo.20181012195836.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -384,6 +369,24 @@ make.start()
 </t>
 <t tx="leo.20181012195836.3">## 編輯投影片
 &lt;img src="../images/1012-3.png" width="400px"/&gt;
- * 在Leo的視窗中開始編輯投影片(reveal)</t>
+ * 在Leo的視窗中開始編輯投影片(reveal)
+
+</t>
+<t tx="leo.20181013144852.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181013144852.2">## 編輯投影片說明
+&lt;img src="../images/1013-1.png" width="400px"/&gt;
+* 紅框的部分為那張投影片的標題，開都會有#
+* 籃框的部分為那張投影片的內容
+</t>
 </tnodes>
 </leo_file>
