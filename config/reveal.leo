@@ -35,7 +35,7 @@
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
-<v t="leo.20181012134409.1" a="E"><vh>編輯投影片</vh>
+<v t="leo.20181012134409.1"><vh>編輯投影片</vh>
 <v t="leo.20181012194127.1" a="E"><vh>Week1</vh>
 <v t="leo.20181012194127.2"><vh>編輯投影片步驟</vh></v>
 </v>
@@ -48,6 +48,9 @@
 <v t="leo.20181013144852.1" a="E"><vh>步驟3</vh>
 <v t="leo.20181013144852.2"><vh>投影片快捷鍵</vh></v>
 </v>
+</v>
+<v t="leo.20181014091144.1" a="E"><vh>末頁</vh>
+<v t="leo.20181014091144.2"><vh>回首頁</vh></v>
 </v>
 </v>
 </v>
@@ -368,7 +371,7 @@ make.start()
 						
 </t>
 <t tx="leo.20181012195836.3">## 編輯投影片
-&lt;img src="../images/1012-3.png" width="400px"/&gt;
+&lt;img src="../images/1012-3.png" width="420px"/&gt;
  * 在Leo Editor的視窗中開始編輯投影片(reveal)
 
 </t>
@@ -384,9 +387,22 @@ make.start()
 						
 </t>
 <t tx="leo.20181013144852.2">## 編輯投影片說明
-&lt;img src="../images/1013-1.png" width="400px"/&gt;
+&lt;img src="../images/1013-1.png" width="500px"/&gt;
 * 紅框的部分為那張投影片的標題，開都會有#
 * 籃框的部分為那張投影片的內容
 </t>
+<t tx="leo.20181014091144.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181014091144.2">[回網站](./../index.html)
+
+
+[回 2018 Full 分組網誌](./../blog/indx.html)</t>
 </tnodes>
 </leo_file>
