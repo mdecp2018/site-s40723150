@@ -403,6 +403,8 @@ make.start()
 <t tx="leo.20181014091144.2">[回網站](./../index.html)
 
 
-[回 2018 Full 分組網誌](./../blog/indx.html)</t>
+[回 2018 Full 分組網誌](./../blog/index.html)
+
+</t>
 </tnodes>
 </leo_file>
