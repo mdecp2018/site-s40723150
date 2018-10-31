@@ -62,4 +62,48 @@ $(function(){
 </ul>
 </confmenu></header>
 <div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='練習紀錄.html'>練習紀錄</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a></li></ul><li><a href='組員操作影片.html'>組員操作影片</a><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>Week4 << <a href='Week4.html'>Previous</a> <a href='組員操作影片.html'>Next</a> >> 組員操作影片<br /><h1>Week5</h1>
-<br />Week4 << <a href='Week4.html'>Previous</a> <a href='組員操作影片.html'>Next</a> >> 組員操作影片</section></div></body></html>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 Ex1 原始碼
+a = 0
+def my_print(n, input_str):
+    print("以下將重覆列印 '", input_str + "' " + str(n) + "次")
+    for i in range(n):
+        print(i, input_str)
+
+my_print(5, "Hello World!")
+the_str = "開始學習 Python"
+num = input("請輸入要列印的次數!")
+my_print(int(num), the_str)
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+
+def myfun():
+    yield 1
+    yield 2
+    yield 3
+
+for i in myfun():
+    print(i)
+
+x = iter(myfun())
+y = list(myfun())
+
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
+print(y)
+</pre>
+<p></p>
+<h4>在遠端執行</h4>
+<p>在遠端執行會跳出視窗，給使用者輸入次數</p>
+<p><img src="./../images/1031-3.png" width="317" height="125" alt=""></p>
+<h4>在近端執行</h4>
+<p>用 SciTE 來執行 python 的程式碼</p>
+<p>在 Tool -&gt; Go (F5) 開始執行程式碼</p>
+<p>右側的執行框中就會跳出：</p>
+<p><img src="./../images/1031-1.png" width="293" height="156" alt=""></p>
+<p>不會跳出視窗</p>
+<p>要在 SciTE 的右側執行框輸入次數</p>
+<p>我打 5 次</p>
+<p><img src="./../images/1031-2.png" width="234" height="357" alt=""></p><br />Week4 << <a href='Week4.html'>Previous</a> <a href='組員操作影片.html'>Next</a> >> 組員操作影片</section></div></body></html>
