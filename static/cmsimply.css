@@ -24,6 +24,7 @@ confmenu ul li
 }
 confmenu li a
 {
+	height: 18px;
 	display: block;
 	float: left;
 	padding: 5px 10px;
