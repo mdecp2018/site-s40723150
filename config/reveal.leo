@@ -27,7 +27,7 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.16" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20180827201621.17"><vh>引用程式碼</vh></v>
 </v>
@@ -35,8 +35,25 @@
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
+<v t="leo.20181109030629.1" a="E"><vh>編輯投影片</vh>
+<v t="leo.20181109030629.2" a="E"><vh>Week4</vh>
+<v t="leo.20181109030629.3"><vh>編輯投影片步驟</vh></v>
+</v>
+<v t="leo.20181109031211.1" a="E"><vh>步驟1</vh>
+<v t="leo.20181109031211.2"><vh>開啟檔案</vh></v>
+</v>
+<v t="leo.20181109030629.4"><vh>步驟1</vh>
+<v t="leo.20181109030629.5"><vh>開啟檔案</vh></v>
+</v>
+<v t="leo.20181109030629.6" a="E"><vh>步驟2</vh>
+<v t="leo.20181109030629.7"><vh>開始編輯</vh></v>
+</v>
+<v t="leo.20181109030629.8" a="E"><vh>步驟3</vh>
+<v t="leo.20181109030629.9"><vh>投影片快捷鍵</vh></v>
+</v>
+</v>
 <v t="leo.20181012134409.1"><vh>編輯投影片</vh>
-<v t="leo.20181012194127.1" a="E"><vh>Week1</vh>
+<v t="leo.20181012194127.1" a="E"><vh>Week4</vh>
 <v t="leo.20181012194127.2"><vh>編輯投影片步驟</vh></v>
 </v>
 <v t="leo.20180827201621.14" a="E"><vh>步驟1</vh>
@@ -352,7 +369,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181012194127.2">## Week1
+<t tx="leo.20181012194127.2">## Week4
 ### 編輯投影片
 * 開啟 reveal.leo
 * 利用Leo Editor開始編輯 reveal.leo
@@ -406,5 +423,86 @@ make.start()
 [回 2018 Full 分組網誌](./../blog/index.html)
 
 </t>
+<t tx="leo.20181109030629.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181109030629.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181109030629.3">## Week3
+### 練習近端資料改版內容新增、 提交
+
+
+</t>
+<t tx="leo.20181109030629.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181109030629.5">## 新增、提交
+*  git add .
+* git commit -m "________"
+
+
+</t>
+<t tx="leo.20181109030629.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181109030629.7">## 查詢版本紀錄
+ * git log
+ * git log --oneline --graph --all
+
+</t>
+<t tx="leo.20181109030629.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181109030629.9">## 切換版本 分支
+
+* git checkout  _______
+* git branch
+* git branch ______</t>
+<t tx="leo.20181109031211.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181109031211.2">## 檔案抓取
+*  git clone
+
+* git pull</t>
 </tnodes>
 </leo_file>
