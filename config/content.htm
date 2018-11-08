@@ -25,6 +25,8 @@
 <p><span>在網站上放 python 的程式碼</span></p>
 <p><a href="/get_page/%E7%B7%B4%E7%BF%92%E7%B4%80%E9%8C%84/Week6">Week6</a></p>
 <p>將 CMSimfly 倉儲中的 flaskapp.py 升級到最新版本</p>
+<p><a href="/get_page/%E7%B7%B4%E7%BF%92%E7%B4%80%E9%8C%84/Week7">Week7</a></p>
+<p>找出近端 IP ，並在瀏覽器上使用</p>
 <p><span></span></p>
 <p><span></span></p><h2>Week1</h2>
 <h4>領取期中作業</h4>
@@ -224,7 +226,33 @@ print(y)
 <p><span style="color: #000000;">git commit -m "updata flaskapp.py &amp; cmsimfly.leo"</span></p>
 <p><span style="color: #000000;">git push 把更新後的 flaskapp.py 推到遠端</span></p>
 <p><span style="color: #000000;"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/xQsIpnhbuQc" width="560"></iframe></span></p>
-<p><span style="color: #000000;"></span></p><h1>組員操作影片</h1>
+<p><span style="color: #000000;"></span></p>
+<h2>Week7</h2>
+<h4>找出近端 IP ，並在瀏覽器上使用</h4>
+<p>在 DOS 命令列查詢自己電腦的 IP：</p>
+<p>ipconfig /all</p>
+<p><img alt="" height="21" src="/images/1109-1.png" width="500"/></p>
+<p>自己電腦 IPv4的位址</p>
+<p>再利用<span>Flask Hello World 程式來測試</span><span></span><span>：</span></p>
+<p><span><img alt="" height="15" src="/images/1109-2.png" width="341"/></span></p>
+<p><span>把自己的 IP 替換到 host </span></p>
+<p><span>再插入一個連結</span></p>
+<p><span><img alt="" height="45" src="/images/1109-3.png" width="197"/></span></p>
+<p><span>儲存，並命名為 w7.py</span></p>
+<p><span>-------------------------------------------------------</span></p>
+<p><span>-注意-</span><span></span></p>
+<p><span>當有多個連結的時候</span></p>
+<p><span>函式的名稱不能一樣</span></p>
+<p><span>-------------------------------------------------------</span></p>
+<p><span>接下來再設定 Proxy </span></p>
+<p><span>由於我的 IP 是 192.168.43.156</span> (是內部 IP)</p>
+<p><span>所以設定要將 192.168.43 開的位址排除掉(因為近端網址不需要用代理主機)</span></p>
+<p>P.S. 內部 IP 不需要使用 Proxy</p>
+<p><span><img alt="" height="124" src="/images/1109-4.png" width="350"/></span></p>
+<p>再利用 Python 執行 <span>w7.py</span></p>
+<p><span>就可以正常連上 192.168.43.156:5000</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ykSWh09jYGE" width="560"></iframe></span></p>
+<p><span></span></p><h1>組員操作影片</h1>
 <p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
 <h1>Python 手冊</h1>
 <p>計算機程式教材:  <a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a> </p>
